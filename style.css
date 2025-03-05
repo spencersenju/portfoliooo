@@ -50,10 +50,15 @@ h1{
 .paragraph{
     width: 600px;
     margin: auto;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Inter", serif;
     padding-bottom: 300px;
-    text-shadow: 5px;
-   
+    text-shadow: 15px;
+    
 
+}
+.title3{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
 }
