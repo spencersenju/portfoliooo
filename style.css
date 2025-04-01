@@ -54,11 +54,26 @@ h1{
     font-family: "Inter", serif;
     padding-bottom: 300px;
     text-shadow: 15px;
-    
-
 }
 .title3{
     padding-top: 35px;
     display: flex;
     justify-content: center;
+}
+.bbtn{
+    position: relative;
+    left: 75px;
+    bottom: 55px;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    border-color: black;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.bbtn:hover{
+    transition: all 0.2s ease;
+    transform: scale(1.1);
 }
