@@ -82,6 +82,9 @@ h1{
     display: flex;
     justify-content: center;
 }
+.gmail a:link{
+    text-decoration: none;
+}
 .gmail{
     font-family: "Inter", serif;
     align-items: center;
@@ -93,6 +96,12 @@ h1{
 .gmail img{
     width: 250px;
     height: 250px;
+}
+.github a:link{
+    text-decoration: none;
+}
+a{
+    color: white;
 }
 .github{
     font-family: "Inter", serif;
@@ -107,6 +116,10 @@ h1{
 .github img{
     width: 250px;
     height: auto;
+}
+
+.instagram a:link{
+    text-decoration: none;
 }
 .instagram{
     font-family: "Inter", serif;
