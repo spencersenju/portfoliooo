@@ -50,10 +50,93 @@ h1{
 .paragraph{
     width: 600px;
     margin: auto;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Inter", serif;
     padding-bottom: 300px;
-    text-shadow: 5px;
-   
+    text-shadow: 15px;
+}
+.title3{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.bbtn{
+    position: relative;
+    left: 75px;
+    bottom: 55px;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    border-color: black;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.bbtn:hover{
+    transition: all 0.2s ease;
+    transform: scale(1.1);
+}
+.ctitle{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+.gmail a:link{
+    text-decoration: none;
+}
+.gmail{
+    font-family: "Inter", serif;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    padding: 150px;
+    text-align: center;
+}
+.gmail img{
+    width: 250px;
+    height: 250px;
+}
+.github a:link{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+.github{
+    font-family: "Inter", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: auto;
+    padding: 150px;
+    text-align: center;
+}
+.github img{
+    width: 250px;
+    height: auto;
+}
 
+.instagram a:link{
+    text-decoration: none;
+}
+.instagram{
+    font-family: "Inter", serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: auto;
+    padding: 150px;
+    text-align: center;
+}
+.instagram img{
+    width: 250px;
+    height: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
